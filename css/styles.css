@@ -1,4 +1,87 @@
-*{
+* {
     margin: 0;
     padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+header p {
+    background: #1CD1B0;
+    padding: 10px;
+    font-size: 15px;
+}
+
+h1 {
+    background: #00669F;
+    padding: 28px 28px 26px;
+    color: white;
+    box-shadow: 0 5px 10px #D1D1D1;
+}
+
+.cardGroup {
+    text-align: center;
+    margin: 150px 0;
+    gap: 40px;
+}
+
+.card {
+    display: inline-block;
+    margin: 0 20px;
+    width: 300px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    background: #F3F3F3;
+    position: relative;
+    padding-bottom: 20px;
+    box-shadow: 0 5px 10px #D1D1D1;
+}
+
+.card button {
+    background: #00669F;
+    border: none;
+    padding: 15px 37px;
+    color: white;
+    font-size: 15px;
+    box-shadow: 0 3px 5px #999999;
+}
+
+.like{
+    position: absolute;
+    top: 16px;
+    left: 21px;
+}
+
+.avatar{
+    width: 120px;
+    height: auto;
+    position: absolute;
+    top: 133px;
+    left: 90px;
+    border-radius: 50%;
+    box-shadow: 0 3px 8px #5a5a5a;
+}
+
+.card h3 {
+    margin: 75px 0 10px 0;
+    font-size: 30px;
+}
+
+.card p {
+    padding: 0 25px;
+    margin-bottom: 37px;
+    text-align: justify;
+}
+
+footer p {
+    background: #00669F;
+    padding: 16px;
+    color: white;
 }
