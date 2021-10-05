@@ -29,13 +29,13 @@ h1 {
 
 .cardGroup {
     text-align: center;
-    margin: 150px 0;
+    margin: 110px 0;
     gap: 40px;
 }
 
 .card {
     display: inline-block;
-    margin: 0 20px;
+    margin: 20px 20px;
     width: 300px;
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
