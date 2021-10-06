@@ -8,6 +8,10 @@ body {
 }
 
 header {
+    display: unset;
+}
+
+.sticky {
     position: sticky;
     top: 0;
     left: 0;
