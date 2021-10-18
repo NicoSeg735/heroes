@@ -4,31 +4,30 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Karla', sans-serif;
 }
 
 header {
     display: unset;
 }
 
-.sticky {
-    position: sticky;
-    top: 0;
-    left: 0;
-    z-index: 2;
-}
-
 header p {
     background: #1CD1B0;
     padding: 10px;
     font-size: 15px;
+    text-align: center;
 }
 
 h1 {
     background: #00669F;
+    font-family: 'Inter', sans-serif;
     padding: 28px 28px 26px;
     color: white;
     box-shadow: 0 5px 10px #D1D1D1;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 2;
 }
 
 .cardGroup {
@@ -51,6 +50,8 @@ h1 {
 
 .card button {
     background: #00669F;
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
     border: none;
     padding: 15px 37px;
     color: white;
@@ -76,6 +77,8 @@ h1 {
 
 .card h3 {
     margin: 75px 0 10px 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
     font-size: 30px;
 }
 
@@ -89,4 +92,5 @@ footer p {
     background: #00669F;
     padding: 16px;
     color: white;
+    text-align: center;
 }
